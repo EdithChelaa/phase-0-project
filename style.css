@@ -1,11 +1,31 @@
 /* ... (existing styles remain unchanged) ... */
 
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #13c5f6;
+    color: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
+
+/* ... (existing styles remain unchanged) ... */
+
+#about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    color: #333;
+    text-align: center;
+}
+
+#about p {
+    line-height: 1.6;
+    color: #555;
+}
