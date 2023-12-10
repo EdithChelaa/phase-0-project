@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
-        // Add your form submission logic here, e.g., send data to a server
-        alert('Form submitted!');
+
+        // Display alert
+        const alertElement = document.createElement('div');
+        alertElement.className = 'alert';
+        alertElement.textContent = 'Form submitted!';
+
+        // Append the alert to the contact section
+        const contactSection = document.getElementById('contact');
+        contactSection.appendChild(alertElement);
     });
 });
